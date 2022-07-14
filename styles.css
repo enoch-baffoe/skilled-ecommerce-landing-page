@@ -58,7 +58,7 @@ button{
 .main-text,.main-picture{
     width:100%;
     height:auto;
-    border:1px solid red;
+    
     
 }
 .main-picture{
@@ -195,3 +195,14 @@ a{
     }
 
   }
+  .main-text button:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  }
+  header>button:hover{
+    background: #666CA3;
+  }
+
+  footer>button:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+  }
+  
